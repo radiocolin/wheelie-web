@@ -332,6 +332,10 @@ body {
     text-decoration: underline;
 }
 
+.footer-links a:visited {
+    color: var(--frost);
+}
+
 .social-links {
     margin-top: 1rem;
 }
