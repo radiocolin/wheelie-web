@@ -319,8 +319,11 @@ body {
     margin-top: 1rem;
 }
 
-.footer-links a {
-    color: var(--frost);
+.footer-links a,
+.footer-links a:visited,
+.footer-links a:active,
+.footer-links a:focus {
+    color: var(--frost) !important;
     text-decoration: none;
     opacity: 0.9;
     transition: opacity 0.3s ease;
@@ -330,10 +333,6 @@ body {
 .footer-links a:hover {
     opacity: 1;
     text-decoration: underline;
-}
-
-.footer-links a:visited {
-    color: var(--frost);
 }
 
 .social-links {
