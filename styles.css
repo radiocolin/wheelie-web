@@ -312,6 +312,24 @@ body {
 
 .footer-text {
     opacity: 0.8;
+    margin-bottom: 1rem;
+}
+
+.footer-links {
+    margin-top: 1rem;
+}
+
+.footer-links a {
+    color: var(--white);
+    text-decoration: none;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+    font-size: 0.9rem;
+}
+
+.footer-links a:hover {
+    opacity: 1;
+    text-decoration: underline;
 }
 
 .social-links {
