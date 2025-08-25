@@ -39,8 +39,6 @@ Welcome to Wheelie, a cycling and ride tracking application. This Privacy Policy
 - **Performance Monitoring**: To track and display your cycling performance metrics
 - **Data Synchronization**: To sync your ride data across your devices via your personal iCloud account
 
-
-
 ### User Experience
 - **Personalization**: To remember your preferences and settings on your device
 - **Cross-Device Sync**: To ensure your data is available on all your devices through your iCloud account
@@ -75,6 +73,21 @@ Welcome to Wheelie, a cycling and ride tracking application. This Privacy Policy
 - **Location Services**: Location data is processed through Apple's Core Location framework on your device
 - **WeatherKit**: Weather data is provided through Apple's WeatherKit service using your current location coordinates to get local weather information for rides
 
+### RevenueCat SDK
+Wheelie uses RevenueCat's iOS SDK to manage in-app purchases and subscriptions. When you make purchases through the app, RevenueCat may collect and process certain information:
+
+- **Purchase Information**: Transaction details, purchase history, and subscription status
+- **Device Information**: Device type, operating system version, and app version
+- **Technical Data**: IP address, device identifiers, and usage analytics related to purchases
+- **User Identifiers**: Anonymous user IDs to track purchase patterns and subscription management
+
+RevenueCat processes this data to:
+- Process and validate your purchases
+- Manage your subscription status
+- Provide customer support for billing issues
+- Analyze purchase patterns to improve our service
+
+For more information about how RevenueCat handles your data, please review their [Privacy Policy](https://www.revenuecat.com/privacy/).
 
 ### Legal Requirements
 Wheelie may be required to disclose information if required by law, but since Wheelie doesn't collect or store your data, Wheelie would not have access to it.
