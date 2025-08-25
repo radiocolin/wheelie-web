@@ -293,6 +293,12 @@ body {
     opacity: 0.9;
 }
 
+.newsletter-form {
+    max-width: 600px;
+    margin: 0 auto;
+    width: 100%;
+}
+
 
 
 /* Footer */
@@ -348,27 +354,6 @@ body {
 
 .social-link:hover {
     opacity: 1;
-}
-
-/* Newsletter Section */
-.newsletter {
-    background-color: var(--white);
-    padding: 4rem 0;
-    text-align: center;
-}
-
-.newsletter-text {
-    font-size: 1.1rem;
-    color: var(--eggplant);
-    margin-bottom: 2rem;
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.beehiiv-embed {
-    display: block;
-    margin: 0 auto;
 }
 
 /* Responsive Design */
