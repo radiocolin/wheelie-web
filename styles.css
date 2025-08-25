@@ -350,6 +350,27 @@ body {
     opacity: 1;
 }
 
+/* Newsletter Section */
+.newsletter {
+    background-color: var(--white);
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.newsletter-text {
+    font-size: 1.1rem;
+    color: var(--eggplant);
+    margin-bottom: 2rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.beehiiv-embed {
+    display: block;
+    margin: 0 auto;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .hero-container {
