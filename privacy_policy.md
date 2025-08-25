@@ -1,171 +1,149 @@
 # Privacy Policy for Wheelie
-
 **Last Updated:** August 2025
 
 ## Introduction
+Welcome to Wheelie, a cycling and ride tracking app. This Privacy Policy explains how your information is processed when you use Wheelie.
 
-Welcome to Wheelie, a cycling and ride tracking application. This Privacy Policy explains how Wheelie processes and uses your information when you use the app. Wheelie is committed to protecting your privacy and being transparent about data practices.
+**Key Principle:**  
+Wheelie itself does **not** collect or store your personal data on our servers. All ride data and preferences are stored locally on your device and, if enabled, in your personal iCloud account.  
+Certain third-party services (e.g., Apple iCloud, RevenueCat, WeatherKit) may process limited data in order to provide core functionality.
+
+---
 
 ## Information We Process
 
-**Important:** Wheelie processes data on your device and does not collect, store, or transmit your personal information to our servers. All data processing happens locally on your device and syncs only to your personal iCloud account.
-
 ### Location Information
-- **GPS Coordinates**: Your device processes precise location data when you actively track rides, including latitude, longitude, altitude, and heading information
-- **Movement Data**: Speed, distance, elevation gain, and course direction during your rides
-- **Location Accuracy**: GPS signal quality and accuracy metrics to improve tracking performance
-- **Background Location**: Location updates continue when the app is in the background during active ride tracking
+- **GPS Coordinates**: Used for ride tracking (latitude, longitude, altitude, heading).  
+- **Movement Data**: Speed, distance, elevation, course direction.  
+- **Location Accuracy**: GPS signal quality for performance optimization.  
+- **Background Location**: Captured during active ride tracking when allowed.
 
 ### Ride Data
-- **Route Information**: Complete GPS tracks of your cycling routes processed and stored locally
-- **Ride Statistics**: Distance, duration, speed, elevation gain, and other performance metrics calculated on your device
-- **Ride Metadata**: Start/stop times, pause/resume events, and ride tags stored locally
-- **Map Data**: Route visualization and map preferences stored on your device
+- **Routes & Tracks**: Complete GPS ride paths stored locally/iCloud.  
+- **Ride Statistics**: Distance, duration, speed, elevation.  
+- **Metadata**: Start/stop times, pause events, ride tags.  
+- **Map Data**: Visualization settings and preferences.
 
 ### App Usage Data
-- **User Preferences**: App settings including color scheme, measurement units, and map preferences stored locally
-- **Performance Data**: App performance metrics and error logs for troubleshooting (stored locally)
+- **Preferences**: Color scheme, units, map style.  
+- **Performance Logs**: Error logs stored locally for troubleshooting.  
 
 ### Device Information
-- **Device Settings**: Location services status, background app refresh settings
-- **App Permissions**: Status of location, notification, and other app permissions
-- **Technical Data**: Device model, operating system version, and app version
+- **Settings**: Location services, background refresh status.  
+- **Permissions**: Location, notifications, etc.  
+- **Technical Data**: Device model, OS version, app version.
 
-## How Your Information Is Used
+---
 
-### Core App Functionality
-- **Ride Tracking**: Your device records and displays your cycling routes and statistics
-- **Navigation**: To provide real-time location updates and compass functionality
-- **Performance Monitoring**: To track and display your cycling performance metrics
-- **Data Synchronization**: To sync your ride data across your devices via your personal iCloud account
+## How We Use Your Information
+- **Ride Tracking & Navigation**: To record and display routes, stats, compass.  
+- **Performance Monitoring**: To show metrics during rides.  
+- **Personalization**: To remember settings.  
+- **Cross-Device Sync**: Through your personal iCloud account.  
+- **Offline Functionality**: Works without internet access.
 
-### User Experience
-- **Personalization**: To remember your preferences and settings on your device
-- **Cross-Device Sync**: To ensure your data is available on all your devices through your iCloud account
-- **Offline Functionality**: To provide core features when internet connectivity is limited
+---
 
 ## Data Storage and Synchronization
 
 ### Local Storage
-- **Device Storage**: All your ride data, preferences, and app settings are stored locally on your device
-- **No Server Storage**: We do not have access to or store any of your data on our servers
-- **Local Processing**: All data processing, calculations, and storage happen on your device
+- All ride data and settings are stored on your device.  
+- Wheelie does not have server access to your data.  
 
-### iCloud Integration
-- **Your iCloud Account**: Your ride data and preferences automatically sync to your personal iCloud account
-- **Cross-Device Access**: Data is available on all your Apple devices signed into the same iCloud account
-- **Local Backup**: Data is also stored locally on your device as a backup
+### iCloud Integration (Apple)
+- Ride data and preferences can sync to your personal iCloud account.  
+- Data is available across your devices signed into the same iCloud.  
+- Apple’s [Privacy Policy](https://www.apple.com/legal/privacy/) applies.
 
 ### Data Retention
-- **Ride Data**: Your complete ride routes including all GPS coordinates, timestamps, speed, and elevation data are stored indefinitely on your device and iCloud unless you manually delete them
-- **Preferences**: App settings are stored until you change them or delete the app
-- **Location Data**: GPS coordinates are processed for UI components (compass, speedometer) and stored as part of your ride routes
+- **Ride Data**: Stored indefinitely unless you delete it.  
+- **Preferences**: Retained until reset or app deletion.  
+- **RevenueCat Data**: Purchase history retained as required for billing/compliance.
 
-## Data Sharing and Third Parties
+---
 
-### No Data Collection or Sharing
-- **No Server Access**: Wheelie does not have access to any of your data
-- **No Third-Party Sharing**: Wheelie does not sell, rent, or share your personal information with third parties
-- **No Marketing Data**: Wheelie does not collect or use your data for marketing or advertising purposes
+## Third-Party Services
 
-### Apple Services
-- **iCloud**: Your data syncs through Apple's iCloud service according to Apple's privacy practices
-- **Location Services**: Location data is processed through Apple's Core Location framework on your device
-- **WeatherKit**: Weather data is provided through Apple's WeatherKit service using your current location coordinates to get local weather information for rides
+| Service      | Purpose                                | Data Processed                                    | Policy Link |
+|--------------|----------------------------------------|--------------------------------------------------|-------------|
+| **Apple iCloud** | Sync and backup of ride data | Ride files, preferences | [Apple Privacy](https://www.apple.com/legal/privacy/) |
+| **Apple WeatherKit** | Local weather for rides | Current location coordinates | [Apple Privacy](https://www.apple.com/legal/privacy/) |
+| **RevenueCat** | Manage in-app purchases/subscriptions | Purchase history, device info, anonymous IDs, IP address | [RevenueCat Privacy](https://www.revenuecat.com/privacy/) |
 
-### RevenueCat SDK
-Wheelie uses RevenueCat's iOS SDK to manage in-app purchases and subscriptions. When you make purchases through the app, RevenueCat may collect and process certain information:
+---
 
-- **Purchase Information**: Transaction details, purchase history, and subscription status
-- **Device Information**: Device type, operating system version, and app version
-- **Technical Data**: IP address, device identifiers, and usage analytics related to purchases
-- **User Identifiers**: Anonymous user IDs to track purchase patterns and subscription management
+## Data Sharing
+- Wheelie does not sell, rent, or share your personal data.  
+- Data is only processed by the third-party services listed above.  
+- Legal disclosures may be required if demanded by law, but Wheelie itself has no access to your ride data.
 
-RevenueCat processes this data to:
-- Process and validate your purchases
-- Manage your subscription status
-- Provide customer support for billing issues
-- Analyze purchase patterns to improve our service
-
-For more information about how RevenueCat handles your data, please review their [Privacy Policy](https://www.revenuecat.com/privacy/).
-
-### Legal Requirements
-Wheelie may be required to disclose information if required by law, but since Wheelie doesn't collect or store your data, Wheelie would not have access to it.
+---
 
 ## Your Privacy Choices
 
 ### Location Permissions
-- **Always**: Allows background tracking during rides
-- **While Using**: Limits tracking to when the app is actively open
-- **Never**: Disables all location-based features
+- **Always**: Background tracking during rides.  
+- **While Using App**: Tracking limited to foreground use.  
+- **Never**: Location-based features disabled.  
 
 ### Data Management
-- **Delete Rides**: You can delete individual rides or all ride data
-- **Reset Preferences**: You can reset app settings to defaults
-- **Export Data**: You can export your ride data in standard formats
-
-### iCloud Sync
-- **Enable/Disable**: You can turn off iCloud sync in your device settings
-
-
-## Data Security
-
-### Protection Measures
-- **Local Encryption**: Data is encrypted when stored on your device
-- **iCloud Security**: Data synced to iCloud is protected by Apple's security measures
-- **Access Control**: Only you and your authorized devices can access your data
-
-### Privacy Safeguards
-- **No Data Collection**: Wheelie does not collect any data from your device
-- **Local Processing**: All data processing occurs on your device
-- **No Tracking**: Wheelie does not use tracking technologies, cookies, or analytics
-- **No Network Transmission**: Your data never leaves your device except to sync with your iCloud account
-
-## Children's Privacy
-
-Wheelie is not intended for children under 13. Wheelie does not knowingly collect personal information from children under 13. If you are a parent or guardian and believe your child has provided Wheelie with personal information, please contact us.
-
-## International Users
-
-If you are using Wheelie outside the United States, please note that your information may be transferred to and processed in the United States or other countries where Apple's iCloud servers are located.
-
-## Changes to This Policy
-
-Wheelie may update this Privacy Policy from time to time. Wheelie will notify you of any changes by posting the new Privacy Policy in the app and updating the "Last Updated" date.
-
-## Contact Us
-
-If you have questions about this Privacy Policy or Wheelie's data practices, please contact us at:
-
-**Email:** wheelie@colinsent.me
-**Website:** https://wheelieapp.com
-
-## California Privacy Rights
-
-If you are a California resident, you have the right to:
-- Know what personal information we collect and how we use it
-- Request deletion of your personal information
-- Opt out of the sale of personal information (though we do not sell personal information)
-- Non-discrimination for exercising your privacy rights
-
-## Your Rights Under GDPR
-
-If you are in the European Union, you have the right to:
-- Access your personal data
-- Rectify inaccurate data
-- Erase your personal data
-- Restrict processing of your data
-- Data portability
-- Object to processing
-- Withdraw consent
-
-## Data Processing Legal Basis
-
-Since Wheelie does not collect or process your data on servers, the legal basis for data processing is:
-- **Local Processing**: All data processing occurs on your device for the ride tracking services you requested
-- **iCloud Sync**: Data synchronization happens through your personal iCloud account under Apple's privacy practices
-- **No Server Processing**: Wheelie has no access to or control over your personal data
+- Delete individual rides or all ride data.  
+- Reset app preferences.  
+- Export ride data in standard formats.  
+- Disable iCloud sync in iOS settings.
 
 ---
 
-*This Privacy Policy is effective as of the date listed above and applies to all users of the Wheelie app.*
+## Data Security
+- **On-Device Encryption**: Data is encrypted when the device is locked with passcode/Face ID/Touch ID.  
+- **iCloud Security**: Protected by Apple’s safeguards.  
+- **Access Control**: Only you and your iCloud-linked devices can access data.  
+- **No Tracking**: Wheelie does not use cookies or analytics SDKs.
+
+---
+
+## Children's Privacy
+Wheelie is not intended for children under 13 (or under 16 in the EU unless parental consent applies). We do not knowingly collect personal data from children.
+
+---
+
+## International Users
+Apple may process iCloud data in data centers located in the United States and other regions. RevenueCat processes purchase-related data in the U.S. Please review their privacy policies for details.
+
+---
+
+## Your Rights
+
+### California Residents (CCPA/CPRA)
+- Know what personal data is processed.  
+- Request deletion of personal data.  
+- Opt-out of sale of personal data (not applicable, we do not sell).  
+- No discrimination for exercising rights.  
+Requests should be directed to Apple (for iCloud/WeatherKit) or RevenueCat (for purchases).
+
+### EU/EEA Residents (GDPR)
+- Access, rectify, erase, or export your data.  
+- Restrict or object to processing.  
+- Withdraw consent.  
+Requests should be directed to Apple (for iCloud/WeatherKit) or RevenueCat (for purchases).  
+Wheelie itself does not control or store your data.
+
+---
+
+## Legal Basis for Processing (GDPR)
+- **Contractual Necessity**: RevenueCat processes purchase data to fulfill subscriptions.  
+- **User Consent**: Location and WeatherKit data.  
+- **Legitimate Interests**: Local processing of ride stats and preferences.  
+- **iCloud Sync**: Managed under Apple’s privacy framework.
+
+---
+
+## Changes to This Policy
+We may update this policy occasionally. Updates will appear in-app and the “Last Updated” date will change.
+
+---
+
+## Contact Us
+Questions?  
+**Email:** wheelie@colinsent.me  
+**Website:** [https://wheelieapp.com](https://wheelieapp.com)
