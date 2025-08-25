@@ -294,29 +294,12 @@ body {
 }
 
 .newsletter-form {
-    max-width: 45%;
+    max-width: 65%;
     margin: 0 auto;
     width: 100%;
 }
 
-/* Newsletter form visibility */
-.newsletter-desktop {
-    display: block;
-}
 
-.newsletter-mobile {
-    display: none;
-}
-
-/* Mobile newsletter form styling */
-.newsletter-mobile {
-    text-align: center;
-}
-
-.newsletter-mobile iframe {
-    max-width: 70% !important;
-    margin: 0 auto;
-}
 
 /* Footer */
 .footer {
@@ -406,15 +389,6 @@ body {
     
     .email-input {
         min-width: 100%;
-    }
-    
-    /* Show mobile newsletter, hide desktop */
-    .newsletter-desktop {
-        display: none;
-    }
-    
-    .newsletter-mobile {
-        display: block;
     }
 }
 
