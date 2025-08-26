@@ -336,6 +336,12 @@ body {
     font-size: 0.9rem;
 }
 
+.footer-links a:not(:last-child)::after {
+    content: "•";
+    margin-left: 1rem;
+    opacity: 0.6;
+}
+
 .footer-links a:hover {
     opacity: 1;
     text-decoration: underline;
