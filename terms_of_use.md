@@ -24,7 +24,7 @@ Wheelie collects **location and ride activity data** in order to provide core fu
 ## 4. In-App Purchases
 Wheelie offers **monthly and annual subscription plans**, some with a free trial period. Subscriptions are billed through your Apple Account and automatically renew unless canceled at least 24 hours before the renewal date.  
 
-All billing, trial management, and refunds are handled by Apple. Please refer to your Apple Account settings to manage subscriptions or request refunds.
+All billing, trial management, and refunds are handled by Apple. Please refer to your [Apple Account settings](https://apps.apple.com/account/subscriptions) to manage subscriptions or request refunds.
 
 ---
 
@@ -50,7 +50,7 @@ Wheelie does not require user accounts. Your data is stored on your device and/o
 ## 8. Termination & Subscriptions
 Since Wheelie does not use user accounts, we do not suspend or terminate accounts. You may stop using the app at any time.  
 
-Please note: **Uninstalling the app does not cancel your subscription.** To stop future charges, you must cancel your subscription through your Apple Account settings. Access to paid features will end when your subscription lapses or is canceled.
+Please note: **Uninstalling the app does not cancel your subscription.** To stop future charges, you must cancel your subscription through your [Apple Account settings](https://apps.apple.com/account/subscriptions). Access to paid features will end when your subscription lapses or is canceled.
 
 ---
 
