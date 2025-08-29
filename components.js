@@ -13,6 +13,7 @@ function createHeader() {
                         <a href="index.html#features">Features</a>
                         <a href="index.html#download">Download</a>
                         <a href="index.html#footer">About</a>
+                        <a href="contact.html">Contact</a>
                         <a href="https://instagram.com/wheelie.app" target="_blank" rel="noopener noreferrer" class="nav-instagram">📸 Instagram</a>
                     </div>
                 </div>
