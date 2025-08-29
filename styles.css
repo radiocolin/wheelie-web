@@ -374,6 +374,10 @@ body {
 
 .footer-links {
     margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
 }
 
 .footer-links a,
@@ -387,15 +391,15 @@ body {
     font-size: 0.9rem;
 }
 
-.footer-links a:not(:last-child)::after {
-    content: "•";
-    margin: 0 0.75rem;
-    opacity: 0.6;
-}
-
 .footer-links a:hover {
     opacity: 1;
     text-decoration: underline;
+}
+
+.footer-links .separator {
+    color: var(--frost);
+    opacity: 0.6;
+    font-size: 0.9rem;
 }
 
 .social-links {

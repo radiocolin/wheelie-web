@@ -42,6 +42,7 @@ function createFooter() {
                     <p class="footer-text">Making every bike ride an adventure worth tracking.</p>
                     <div class="footer-links">
                         <a href="privacy.html">Privacy Policy</a>
+                        <span class="separator">•</span>
                         <a href="terms.html">Terms of Use</a>
                     </div>
                 </div>
