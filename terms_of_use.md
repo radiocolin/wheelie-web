@@ -97,7 +97,12 @@ This EULA is a legal agreement between you and Wheelie (the “Licensor”). By 
 
 ---
 
-## 16. Contact
+## 16. Font License
+Wheelie uses the Barlow Condensed font family, which is licensed under the [Open Font License](https://fonts.google.com/specimen/Barlow+Condensed/license). This license allows the font to be used, modified, and distributed freely for both personal and commercial purposes.
+
+---
+
+## 17. Contact
 For questions or support, please contact us at:  
 📧 **[feedback@wheelieapp.com](mailto:feedback@wheelieapp.com)**  
 🌐 **[wheelieapp.com](https://wheelieapp.com)**
