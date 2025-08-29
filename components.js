@@ -16,8 +16,16 @@ function createHeader() {
                         <a href="contact.html">Contact</a>
                         <a href="https://instagram.com/wheelie.app" target="_blank" rel="noopener noreferrer" class="nav-instagram">📸 Instagram</a>
                     </div>
+                    <button class="mobile-menu-btn" onclick="toggleMobileMenu()">☰</button>
                 </div>
             </nav>
+            <div class="mobile-menu" id="mobileMenu">
+                <a href="index.html#features">Features</a>
+                <a href="index.html#download">Download</a>
+                <a href="index.html#footer">About</a>
+                <a href="contact.html">Contact</a>
+                <a href="https://instagram.com/wheelie.app" target="_blank" rel="noopener noreferrer">📸 Instagram</a>
+            </div>
         </header>
     `;
 }
@@ -51,6 +59,12 @@ function includeComponents() {
     
     // Insert footer before the closing body tag
     body.insertBefore(document.createRange().createContextualFragment(createFooter()), body.lastChild);
+}
+
+// Mobile menu toggle function
+function toggleMobileMenu() {
+    const mobileMenu = document.getElementById('mobileMenu');
+    mobileMenu.classList.toggle('active');
 }
 
 // Auto-include components when DOM is loaded
