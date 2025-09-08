@@ -1,5 +1,5 @@
 # Privacy Policy for Wheelie
-**Last Updated:** August 2025
+**Last Updated:** September 2025
 
 ## Introduction
 Welcome to Wheelie, a cycling and ride tracking app. This Privacy Policy explains how your information is processed when you use Wheelie.
@@ -92,6 +92,13 @@ Certain third-party services (e.g., Apple iCloud, RevenueCat, WeatherKit) may pr
 - Export ride data in standard formats.  
 - Disable iCloud sync in iOS settings.
 
+### Data Export
+You can export your ride data at any time in the following formats:
+- **JSON**: Single or complete ride data including GPS coordinates, timestamps, statistics, tags, notes, weather data, and location information
+- **KML**: Structured route data for compatibility with other mapping applications
+
+Export functionality is available through the app's settings menu.
+
 ---
 
 ## Data Security
@@ -147,3 +154,11 @@ We may update this policy occasionally. Updates will appear in-app and the “La
 Questions?  
 **Email:** wheelie@colinsent.me  
 **Website:** [https://wheelieapp.com](https://wheelieapp.com)
+
+---
+
+## Changelog
+
+### September 2025
+- Added detailed data export section explaining JSON and KML export formats
+- Clarified that exports include ride history, coordinates, elevation, speed, locations, weather data, notes, and tags
