@@ -152,19 +152,72 @@ body {
 
 /* Hero Section */
 .hero {
-    padding: 140px 0 80px;
+    padding: 120px 0 60px;
     background: linear-gradient(135deg, var(--frost) 0%, var(--slate) 100%);
     color: var(--white);
 }
 
 .hero-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 4rem;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
+    text-align: center;
+}
+
+/* Hero Slider */
+.hero-slider {
+    margin-bottom: 0.5rem;
+    width: 100%;
+    max-width: 800px;
+}
+
+.swiper-container {
+    width: 100%;
+    max-width: 1200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+}
+
+.swiper-slide {
+    width: 330px;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+/* Pagination dots */
+.swiper-pagination {
+    position: relative;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.swiper-pagination-bullet {
+    background: rgba(255, 255, 255, 0.5);
+    opacity: 1;
+    width: 12px;
+    height: 12px;
+    margin: 0 6px;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.swiper-pagination-bullet-active {
+    background: var(--mango);
+    transform: scale(1.2);
+}
+
+/* Hero Content */
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 .hero-title {
@@ -189,6 +242,7 @@ body {
     display: flex;
     gap: 1rem;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .btn {
@@ -419,10 +473,19 @@ body {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    .hero-container {
-        grid-template-columns: 1fr;
-        text-align: center;
-        gap: 2rem;
+    .swiper-container {
+        width: 100%;
+        max-width: 500px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    .swiper-slide {
+        width: 250px;
+    }
+    
+    .hero-slider {
+        margin-bottom: 2rem;
     }
     
     .hero-title {

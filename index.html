@@ -24,6 +24,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
     <link rel="stylesheet" href="styles.css">
 
 </head>
@@ -33,16 +34,45 @@
     <main>
         <section class="hero">
             <div class="hero-container">
+                <!-- Screenshot Slider -->
+                <div class="hero-slider">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <!-- First set -->
+                            <div class="swiper-slide">
+                                <img src="screenshots/screenshot-1.png" alt="Wheelie App Screenshot 1">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="screenshots/screenshot-2.png" alt="Wheelie App Screenshot 2">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="screenshots/screenshot-3.png" alt="Wheelie App Screenshot 3">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="screenshots/screenshot-4.png" alt="Wheelie App Screenshot 4">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="screenshots/screenshot-5.png" alt="Wheelie App Screenshot 5">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="screenshots/screenshot-6.png" alt="Wheelie App Screenshot 6">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="screenshots/screenshot-7.png" alt="Wheelie App Screenshot 7">
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+                
+                <!-- Hero Content -->
                 <div class="hero-content">
                     <h1 class="hero-title">Track Every Ride</h1>
                     <p class="hero-subtitle">The ultimate bike ride tracking app with live GPS monitoring, real-time speedometer, and beautiful route visualization.</p>
-                                    <div class="hero-buttons">
-                    <a href="#download" class="btn btn-primary">Launching September 15</a>
-                    <a href="#features" class="btn btn-secondary">Learn More</a>
-                </div>
-                </div>
-                <div class="hero-image">
-                    <img src="export-light.jpg" alt="Wheelie App Interface" class="hero-img">
+                    <div class="hero-buttons">
+                        <a href="#download" class="btn btn-primary">Launching September 15</a>
+                        <a href="#features" class="btn btn-secondary">Learn More</a>
+                    </div>
                 </div>
             </div>
         </section>
@@ -75,18 +105,6 @@
             </div>
         </section>
 
-        <section class="showcase">
-            <div class="container">
-                <div class="showcase-image">
-                    <img src="screenshot-iphone.png" alt="Wheelie App Screenshot" class="showcase-img">
-                </div>
-                <div class="showcase-content">
-                    <h2>Built for Riders</h2>
-                    <p>Whether you're commuting through the city or exploring mountain trails, Wheelie adapts to your ride. Switch between map styles, monitor weather conditions, and track your progress with precision.</p>
-                </div>
-            </div>
-        </section>
-
         <section id="download" class="download">
             <div class="container">
                 <h2 class="section-title">Get Ready to Ride</h2>
@@ -101,6 +119,7 @@
 
     <!-- Footer will be inserted by components.js -->
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="components.js"></script>
     <script src="script.js"></script>
 </body>

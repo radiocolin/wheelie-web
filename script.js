@@ -25,3 +25,34 @@ window.addEventListener('scroll', function() {
         header.style.backdropFilter = 'none';
     }
 });
+
+// Initialize Swiper slider
+document.addEventListener('DOMContentLoaded', function() {
+    const mySwiper = new Swiper('.swiper-container', {
+        loop: true,
+        speed: 500,
+        initialSlide: 0,
+        autoplay: {
+            delay: 2000,
+        },
+        effect: 'coverflow',
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: 'auto',
+        coverflowEffect: {
+            rotate: -10,
+            stretch: 0,
+            depth: 500,
+            modifier: 1,
+            slideShadows: false,
+        },
+        // Pagination dots (only show 7 dots for the original set)
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+            renderBullet: function (index, className) {
+                return '<span class="' + className + '"></span>';
+            },
+        },
+    });
+});
