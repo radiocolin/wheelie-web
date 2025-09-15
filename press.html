@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Press - Wheelie</title>
+    <link rel="icon" type="image/svg+xml" href="Wheelie icon.svg">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Press - Wheelie">
+    <meta property="og:description" content="Press releases and media resources for Wheelie bike ride tracking app.">
+    <meta property="og:image" content="screenshot-iphone.png">
+    <meta property="og:image:width" content="1170">
+    <meta property="og:image:height" content="2532">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://wheelieapp.com/press">
+    <meta property="og:site_name" content="Wheelie">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Press - Wheelie">
+    <meta name="twitter:description" content="Press releases and media resources for Wheelie bike ride tracking app.">
+    <meta name="twitter:image" content="screenshot-iphone.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .press-content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 6rem 1rem 2rem 1rem;
+        }
+        
+        .press-content h1 {
+            color: #333;
+            margin-bottom: 1rem;
+            font-size: 2.5rem;
+            font-family: 'Barlow Condensed', sans-serif;
+            font-weight: 500;
+        }
+        
+        .press-content h2 {
+            color: #555;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+            font-family: 'Barlow Condensed', sans-serif;
+            font-weight: 500;
+        }
+        
+        .press-content h3 {
+            color: #666;
+            margin-top: 1.5rem;
+            margin-bottom: 0.5rem;
+            font-size: 1.2rem;
+            font-family: 'Barlow Condensed', sans-serif;
+            font-weight: 500;
+        }
+        
+        .press-content p {
+            margin-bottom: 1rem;
+            line-height: 1.6;
+            color: #444;
+        }
+        
+        .press-content ul {
+            margin-bottom: 1rem;
+            padding-left: 2rem;
+        }
+        
+        .press-content li {
+            margin-bottom: 0.5rem;
+            line-height: 1.6;
+            color: #444;
+        }
+        
+        .press-content strong {
+            color: #333;
+        }
+        
+        .back-link {
+            display: inline-block;
+            margin: 2rem 0 2rem 0;
+            color: #007AFF;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        .back-link:hover {
+            text-decoration: underline;
+        }
+        
+        .press-images {
+            background: #f8f9fa;
+            padding: 2rem;
+            border-radius: 8px;
+            margin: 2rem 0;
+            border: 1px solid #e1e1e1;
+        }
+        
+        .press-images h3 {
+            margin-top: 0;
+            color: #007AFF;
+        }
+        
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        
+        .image-item {
+            text-align: center;
+        }
+        
+        .image-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            margin-bottom: 0.5rem;
+        }
+        
+        .image-item a {
+            display: block;
+            color: #007AFF;
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+        
+        .image-item a:hover {
+            text-decoration: underline;
+        }
+        
+        .contact-info {
+            background: #f0f8ff;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 2rem 0;
+            border: 1px solid #e1f0ff;
+        }
+        
+        .contact-info h3 {
+            margin-top: 0;
+            color: #007AFF;
+        }
+        
+        blockquote {
+            background: #f5f5f5;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 2rem 0;
+            border-left: 4px solid #007AFF;
+            font-style: italic;
+        }
+        
+        blockquote p {
+            margin-bottom: 0;
+        }
+        
+        /* Mobile responsive */
+        @media (max-width: 768px) {
+            .image-grid {
+                grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+                gap: 0.5rem;
+            }
+            
+            .press-images {
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header will be inserted by components.js -->
+
+    <main>
+        <div class="press-content">
+            <a href="index.html" class="back-link">← Back to Wheelie</a>
+            <!-- Content will be automatically generated from press.md -->
+        </div>
+    </main>
+
+    <!-- Footer will be inserted by components.js -->
+
+    <script src="components.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="press-generator.js"></script>
+</body>
+</html>

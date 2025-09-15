@@ -44,6 +44,8 @@ function createFooter() {
                         <a href="privacy.html">Privacy Policy</a>
                         <span class="separator">•</span>
                         <a href="terms.html">Terms of Use</a>
+                        <span class="separator">•</span>
+                        <a href="press.html">Press</a>
                     </div>
                 </div>
             </div>
