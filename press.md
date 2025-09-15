@@ -16,7 +16,7 @@ Wheelie is free to try with **ten rides included**, after which users can subscr
 For more information, visit **[wheelieapp.com](https://wheelieapp.com)**.  
 
 **Download Wheelie on the App Store:**  
-[![Download on the App Store](app-store-badge-white.svg)](https://apps.apple.com/in/app/wheelie-bike-ride-tracking/id6747010503)
+[![Download on the App Store](app-store-badge-black.svg)](https://apps.apple.com/in/app/wheelie-bike-ride-tracking/id6747010503)
 
 ---
 
