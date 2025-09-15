@@ -11,9 +11,12 @@ Designed for every rider, Wheelie supports light and dark themes, multiple langu
 > “Wheelie has been a labor of love. I built the bike ride tracking app I want to use. It's full of attention to detail and delightful animations. I hope you enjoy using it as much as I enjoyed making it.”  
 > — Colin Weir, creator of Wheelie  
 
-Wheelie is free to try with **ten rides included**, after which users can subscribe for unlimited use with monthly or yearly plans.  
+Wheelie is free to try with **ten rides included**, after which users can subscribe for unlimited use with monthly or yearly plans.]
 
 For more information, visit **[wheelieapp.com](https://wheelieapp.com)**.  
+
+**Download Wheelie on the App Store:**  
+[![Download on the App Store](app-store-badge-white.svg)](https://apps.apple.com/in/app/wheelie-bike-ride-tracking/id6747010503)
 
 ---
 
