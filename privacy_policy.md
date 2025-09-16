@@ -75,6 +75,7 @@ Certain third-party services (e.g., Apple iCloud, RevenueCat, WeatherKit) may pr
 ## Data Sharing
 - Wheelie does not sell, rent, or share your personal data.  
 - Data is only processed by the third-party services listed above.  
+- By using our app and making in-app purchases, you consent to our sharing of data regarding your usage and consumption of purchased content with Apple, as part of our efforts to resolve refund requests. This information may include details about how you have accessed and interacted with the purchased content. The purpose of sharing this data is to help Apple make an informed decision regarding refund requests. We ensure that such data sharing is done in compliance with Apple's policies and only as necessary to process your requests.
 - Legal disclosures may be required if demanded by law, but Wheelie itself has no access to your ride data.
 
 ---
@@ -162,3 +163,4 @@ Questions?
 ### September 2025
 - Added detailed data export section explaining JSON and KML export formats
 - Clarified that exports include ride history, coordinates, elevation, speed, locations, weather data, notes, and tags
+- Added information about data sharing with Apple for refund request resolution regarding purchased content usage and consumption
