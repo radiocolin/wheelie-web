@@ -10,11 +10,9 @@ function createHeader() {
                         </a>
                     </div>
                     <div class="nav-links">
-                        <a href="index.html#features">Features</a>
-                        <a href="index.html#download">Newsletter</a>
-                        <a href="index.html#footer">About</a>
+                        <a href="index.html">Home</a>
                         <a href="contact.html">Contact</a>
-                        <a href="https://instagram.com/wheelie.app" target="_blank" rel="noopener noreferrer" class="nav-instagram">📸 Instagram</a>
+                        <a href="https://instagram.com/wheelie.app" target="_blank" rel="noopener noreferrer" class="nav-instagram">📸 <span class="instagram-text">Instagram</span></a>
                         <a href="https://apps.apple.com/in/app/wheelie-bike-ride-tracking/id6747010503" target="_blank" rel="noopener" class="nav-app-store">
                             <img src="app-store-badge-black.svg" alt="Download on the App Store" class="nav-app-store-badge">
                         </a>
@@ -23,11 +21,9 @@ function createHeader() {
                 </div>
             </nav>
             <div class="mobile-menu" id="mobileMenu">
-                <a href="index.html#features">Features</a>
-                <a href="index.html#download">Newsletter</a>
-                <a href="index.html#footer">About</a>
+                <a href="index.html">Home</a>
                 <a href="contact.html">Contact</a>
-                <a href="https://instagram.com/wheelie.app" target="_blank" rel="noopener noreferrer">📸 Instagram</a>
+                <a href="https://instagram.com/wheelie.app" target="_blank" rel="noopener noreferrer" class="nav-instagram">📸 <span class="instagram-text">Instagram</span></a>
                 <a href="https://apps.apple.com/in/app/wheelie-bike-ride-tracking/id6747010503" target="_blank" rel="noopener" class="mobile-app-store">
                     <img src="app-store-badge-black.svg" alt="Download on the App Store" class="mobile-app-store-badge">
                 </a>

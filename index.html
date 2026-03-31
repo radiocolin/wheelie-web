@@ -24,7 +24,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
     <link rel="stylesheet" href="styles.css">
 
 </head>
@@ -33,38 +32,27 @@
 
     <main>
         <section class="hero">
-            <div class="hero-container">
-                <!-- Screenshot Slider -->
-                <div class="hero-slider">
-                    <div class="swiper-container">
-                        <div class="swiper-wrapper">
-                            <!-- First set -->
-                            <div class="swiper-slide">
-                                <img src="screenshots/screenshot-1.png" alt="Wheelie App Screenshot 1">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="screenshots/screenshot-2.png" alt="Wheelie App Screenshot 2">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="screenshots/screenshot-3.png" alt="Wheelie App Screenshot 3">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="screenshots/screenshot-4.png" alt="Wheelie App Screenshot 4">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="screenshots/screenshot-5.png" alt="Wheelie App Screenshot 5">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="screenshots/screenshot-6.png" alt="Wheelie App Screenshot 6">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="screenshots/screenshot-7.png" alt="Wheelie App Screenshot 7">
-                            </div>
-                        </div>
-                        <div class="swiper-pagination"></div>
-                    </div>
+            <!-- Header Slider -->
+            <div class="header-slider">
+                <div class="header-slider-track">
+                    <!-- First set -->
+                    <div class="header-slide"><img src="headers/Slice 1.png" alt="Wheelie Header 1"></div>
+                    <div class="header-slide"><img src="headers/Slice 2.png" alt="Wheelie Header 2"></div>
+                    <div class="header-slide"><img src="headers/Slice 3.png" alt="Wheelie Header 3"></div>
+                    <div class="header-slide"><img src="headers/Slice 4.png" alt="Wheelie Header 4"></div>
+                    <div class="header-slide"><img src="headers/Slice 5.png" alt="Wheelie Header 5"></div>
+                    <div class="header-slide"><img src="headers/Slice 6.png" alt="Wheelie Header 6"></div>
+                    <!-- Second set for seamless loop -->
+                    <div class="header-slide"><img src="headers/Slice 1.png" alt="Wheelie Header 1"></div>
+                    <div class="header-slide"><img src="headers/Slice 2.png" alt="Wheelie Header 2"></div>
+                    <div class="header-slide"><img src="headers/Slice 3.png" alt="Wheelie Header 3"></div>
+                    <div class="header-slide"><img src="headers/Slice 4.png" alt="Wheelie Header 4"></div>
+                    <div class="header-slide"><img src="headers/Slice 5.png" alt="Wheelie Header 5"></div>
+                    <div class="header-slide"><img src="headers/Slice 6.png" alt="Wheelie Header 6"></div>
                 </div>
-                
+            </div>
+
+            <div class="hero-container">
                 <!-- Hero Content -->
                 <div class="hero-content">
                     <h1 class="hero-title">Track Every Ride</h1>
@@ -105,22 +93,10 @@
                 </div>
             </div>
         </section>
-
-        <section id="download" class="download">
-            <div class="container">
-                <h2 class="section-title">Stay in the Know</h2>
-                <p class="download-text">Get the latest updates, tips, and exclusive content delivered straight to your inbox. Join our community of riders!</p>
-                <div class="newsletter-form">
-                    <script async src="https://subscribe-forms.beehiiv.com/embed.js"></script>
-                    <iframe src="https://subscribe-forms.beehiiv.com/bd2d9967-9a43-4ae9-afb5-4ee39ed4cde6" class="beehiiv-embed" data-test-id="beehiiv-embed" frameborder="0" scrolling="no" style="width: 100%; height: 415px; margin: 0; border-radius: 0px 0px 0px 0px !important; background-color: transparent; box-shadow: 0 0 #0000; max-width: 100%;"></iframe>
-                </div>
-            </div>
-        </section>
     </main>
 
     <!-- Footer will be inserted by components.js -->
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="components.js"></script>
     <script src="script.js"></script>
 </body>
