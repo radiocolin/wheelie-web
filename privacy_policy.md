@@ -1,12 +1,12 @@
 # Privacy Policy for Wheelie
-**Last Updated:** September 2025
+**Last Updated:** July 2026
 
 ## Introduction
 Welcome to Wheelie, a cycling and ride tracking app. This Privacy Policy explains how your information is processed when you use Wheelie.
 
 **Key Principle:**  
 Wheelie itself does **not** collect or store your personal data on our servers. All ride data and preferences are stored locally on your device and, if enabled, in your personal iCloud account.  
-Certain third-party services (e.g., Apple iCloud, RevenueCat, WeatherKit) may process limited data in order to provide core functionality.
+Certain third-party services (e.g., Apple iCloud, Apple Health, RevenueCat, WeatherKit) may process limited data in order to provide core functionality.
 
 ---
 
@@ -33,6 +33,12 @@ Certain third-party services (e.g., Apple iCloud, RevenueCat, WeatherKit) may pr
 - **Permissions**: Location, notifications, etc.  
 - **Technical Data**: Device model, OS version, app version.
 
+### Apple Health Data
+- **Body Data**: Weight, age, and biological sex, read to estimate calories burned.  
+- **Heart Rate**: Apple Watch heart rate during a ride, read to improve calorie estimates.  
+- **Workout History**: Workouts Wheelie previously exported, read to avoid duplicates and detect workouts you removed in the Health app.  
+- **Workout Export**: Distance, route, elevation, speed, and estimated calories, written to Apple Health when you export a ride.
+
 ---
 
 ## How We Use Your Information
@@ -40,7 +46,8 @@ Certain third-party services (e.g., Apple iCloud, RevenueCat, WeatherKit) may pr
 - **Performance Monitoring**: To show metrics during rides.  
 - **Personalization**: To remember settings.  
 - **Cross-Device Sync**: Through your personal iCloud account.  
-- **Offline Functionality**: Works without internet access.
+- **Offline Functionality**: Works without internet access.  
+- **Calorie Estimation**: Uses Health data you choose to share to estimate calories burned on a ride.
 
 ---
 
@@ -49,6 +56,7 @@ Certain third-party services (e.g., Apple iCloud, RevenueCat, WeatherKit) may pr
 ### Local Storage
 - All ride data and settings are stored on your device.  
 - Wheelie does not have server access to your data.  
+- Records of which rides have been exported to Apple Health are stored on your device only and do not sync to iCloud.
 
 ### iCloud Integration (Apple)
 - Ride data and preferences can sync to your personal iCloud account.  
@@ -58,7 +66,8 @@ Certain third-party services (e.g., Apple iCloud, RevenueCat, WeatherKit) may pr
 ### Data Retention
 - **Ride Data**: Stored indefinitely unless you delete it.  
 - **Preferences**: Retained until reset or app deletion.  
-- **RevenueCat Data**: Purchase history retained as required for billing/compliance.
+- **RevenueCat Data**: Purchase history retained as required for billing/compliance.  
+- **Health Export Records**: Stored on your device until you remove the ride or delete the export.
 
 ---
 
@@ -68,6 +77,7 @@ Certain third-party services (e.g., Apple iCloud, RevenueCat, WeatherKit) may pr
 |--------------|----------------------------------------|--------------------------------------------------|-------------|
 | **Apple iCloud** | Sync and backup of ride data | Ride files, preferences | [Apple Privacy](https://www.apple.com/legal/privacy/) |
 | **Apple WeatherKit** | Local weather for rides | Current location coordinates | [Apple Privacy](https://www.apple.com/legal/privacy/) |
+| **Apple Health** | Export rides as workouts; estimate calories burned | Weight, age, biological sex, heart rate, workout data | [Apple Privacy](https://www.apple.com/legal/privacy/) |
 | **RevenueCat** | Manage in-app purchases/subscriptions | Purchase history, device info, anonymous IDs, IP address | [RevenueCat Privacy](https://www.revenuecat.com/privacy/) |
 
 ---
@@ -91,7 +101,9 @@ Certain third-party services (e.g., Apple iCloud, RevenueCat, WeatherKit) may pr
 - Delete individual rides or all ride data.  
 - Reset app preferences.  
 - Export ride data in standard formats.  
-- Disable iCloud sync in iOS settings.
+- Disable iCloud sync in iOS settings.  
+- Export rides to Apple Health, or remove them, from Settings or a ride's detail screen.  
+- Revoke Health access at any time in iOS Settings under Privacy & Security.
 
 ### Data Export
 You can export your ride data at any time in the following formats:
@@ -106,7 +118,8 @@ Export functionality is available through the app's settings menu.
 - **On-Device Encryption**: Data is encrypted when the device is locked with passcode/Face ID/Touch ID.  
 - **iCloud Security**: Protected by Apple’s safeguards.  
 - **Access Control**: Only you and your iCloud-linked devices can access data.  
-- **No Tracking**: Wheelie does not use cookies or analytics SDKs.
+- **No Tracking**: Wheelie does not use cookies or analytics SDKs.  
+- **Health Data**: Read only to estimate calories and never stored by Wheelie.
 
 ---
 
@@ -127,20 +140,20 @@ Apple may process iCloud data in data centers located in the United States and o
 - Request deletion of personal data.  
 - Opt-out of sale of personal data (not applicable, we do not sell).  
 - No discrimination for exercising rights.  
-Requests should be directed to Apple (for iCloud/WeatherKit) or RevenueCat (for purchases).
+Requests should be directed to Apple (for iCloud/WeatherKit/Health) or RevenueCat (for purchases).
 
 ### EU/EEA Residents (GDPR)
 - Access, rectify, erase, or export your data.  
 - Restrict or object to processing.  
 - Withdraw consent.  
-Requests should be directed to Apple (for iCloud/WeatherKit) or RevenueCat (for purchases).  
+Requests should be directed to Apple (for iCloud/WeatherKit/Health) or RevenueCat (for purchases).  
 Wheelie itself does not control or store your data.
 
 ---
 
 ## Legal Basis for Processing (GDPR)
 - **Contractual Necessity**: RevenueCat processes purchase data to fulfill subscriptions.  
-- **User Consent**: Location and WeatherKit data.  
+- **User Consent**: Location, WeatherKit, and Health data.  
 - **Legitimate Interests**: Local processing of ride stats and preferences.  
 - **iCloud Sync**: Managed under Apple’s privacy framework.
 
@@ -159,6 +172,10 @@ Questions?
 ---
 
 ## Changelog
+
+### July 2026
+- Added Apple Health data section covering calorie estimation and workout export
+- Added Apple Health to third-party services, data retention, data security, and rights sections
 
 ### September 2025
 - Added detailed data export section explaining JSON and KML export formats
