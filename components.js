@@ -21,7 +21,6 @@ function createHeader() {
             <nav class="nav-links" aria-label="Main">
                 <a href="/#features">Features</a>
                 <a href="contact.html">Contact</a>
-                <a href="https://instagram.com/wheelie.app" target="_blank" rel="noopener noreferrer">Instagram</a>
                 ${appStoreBadge()}
             </nav>
         </header>`;
@@ -37,6 +36,7 @@ function createFooter() {
                     <a href="terms.html">Terms of Use</a>
                     <a href="press.html">Press kit</a>
                     <a href="contact.html">Contact</a>
+                    <a href="https://bayouapp.space">Bayou, our Bluesky app</a>
                 </nav>
                 <p class="fine">Apple, iPhone, Apple Watch, Siri, Apple Health, iCloud, and Live Activities are trademarks of Apple Inc.</p>
             </div>
