@@ -1,103 +1,224 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wheelie - Track Your Bike Rides</title>
-    <link rel="icon" type="image/svg+xml" href="Wheelie icon.svg">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wheelie: Track every ride</title>
+  <meta name="description" content="Wheelie is a bike ride tracker for iPhone. Follow your ride live on the map, relive every route, and keep every ride in one place.">
+  <meta name="theme-color" content="#fff7ea" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0e0f18" media="(prefers-color-scheme: dark)">
+  <link rel="icon" type="image/png" href="assets/icon-64.png">
+  <link rel="apple-touch-icon" href="assets/icon-180.png">
+  <meta name="apple-itunes-app" content="app-id=6747010503">
 
-    <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="Wheelie - Track Your Bike Rides">
-    <meta property="og:description" content="The ultimate bike ride tracking app with live GPS monitoring, real-time speedometer, and beautiful route visualization.">
-    <meta property="og:image" content="og-image.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1298">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://wheelieapp.com">
-    <meta property="og:site_name" content="Wheelie">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://wheelieapp.com/">
+  <meta property="og:site_name" content="Wheelie">
+  <meta property="og:title" content="Wheelie: Track every ride">
+  <meta property="og:description" content="A bike ride tracker for iPhone. Follow your ride live on the map, relive every route, and keep every ride in one place.">
+  <meta property="og:image" content="https://wheelieapp.com/assets/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
 
-    <!-- Twitter Card Meta Tags -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Wheelie - Track Your Bike Rides">
-    <meta name="twitter:description" content="The ultimate bike ride tracking app with live GPS monitoring, real-time speedometer, and beautiful route visualization.">
-    <meta name="twitter:image" content="og-image.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Header will be inserted by components.js -->
+  <!-- Navigation and footer: components.js -->
 
-    <main>
-        <section class="hero">
-            <!-- Header Slider -->
-            <div class="header-slider">
-                <div class="header-slider-track">
-                    <!-- First set -->
-                    <div class="header-slide"><img src="headers/Slice 1.png" alt="Wheelie Header 1"></div>
-                    <div class="header-slide"><img src="headers/Slice 2.png" alt="Wheelie Header 2"></div>
-                    <div class="header-slide"><img src="headers/Slice 3.png" alt="Wheelie Header 3"></div>
-                    <div class="header-slide"><img src="headers/Slice 4.png" alt="Wheelie Header 4"></div>
-                    <div class="header-slide"><img src="headers/Slice 5.png" alt="Wheelie Header 5"></div>
-                    <div class="header-slide"><img src="headers/Slice 6.png" alt="Wheelie Header 6"></div>
-                    <!-- Second set for seamless loop -->
-                    <div class="header-slide"><img src="headers/Slice 1.png" alt="Wheelie Header 1"></div>
-                    <div class="header-slide"><img src="headers/Slice 2.png" alt="Wheelie Header 2"></div>
-                    <div class="header-slide"><img src="headers/Slice 3.png" alt="Wheelie Header 3"></div>
-                    <div class="header-slide"><img src="headers/Slice 4.png" alt="Wheelie Header 4"></div>
-                    <div class="header-slide"><img src="headers/Slice 5.png" alt="Wheelie Header 5"></div>
-                    <div class="header-slide"><img src="headers/Slice 6.png" alt="Wheelie Header 6"></div>
-                </div>
-            </div>
+  <main>
+    <section class="hero">
+      <div class="wrap">
+        <div class="hero-copy">
+          <h1 class="headline">Track every ride</h1>
+          <p class="lede">Wheelie follows your ride live on the map, keeps every route you’ve ridden, and makes the good ones easy to share. Made for iPhone, and redesigned for iOS 27.</p>
+          <span data-app-store-badge></span>
+          <p class="note">Ten rides free, then unlimited with a subscription.</p>
+        </div>
+        <div class="hero-art">
+          <picture class="phone side left">
+            <source srcset="assets/iphone-ride-dark.webp" media="(prefers-color-scheme: dark)">
+            <img src="assets/iphone-ride-light.webp" alt="A 20-mile loop around Philadelphia in Wheelie, with its route on the map and its stats below." width="660" height="1434">
+          </picture>
+          <picture class="phone front">
+            <source srcset="assets/iphone-live-dark.webp" media="(prefers-color-scheme: dark)">
+            <img src="assets/iphone-live-light.webp" alt="A ride in progress in Wheelie: the route on a full-screen map, with speed, compass, distance, elevation and time below." width="660" height="1434">
+          </picture>
+          <picture class="phone side right">
+            <source srcset="assets/iphone-history-dark.webp" media="(prefers-color-scheme: dark)">
+            <img src="assets/iphone-history-light.webp" alt="Wheelie’s History, with this week’s stats above a list of rides." width="660" height="1434">
+          </picture>
+        </div>
+      </div>
+    </section>
 
-            <div class="hero-container">
-                <!-- Hero Content -->
-                <div class="hero-content">
-                    <h1 class="hero-title">Track Every Ride</h1>
-                    <p class="hero-subtitle">The ultimate bike ride tracking app with live GPS monitoring, real-time speedometer, and beautiful route visualization.</p>
-                    <div class="hero-buttons">
-                        <a href="https://apps.apple.com/in/app/wheelie-bike-ride-tracking/id6747010503" target="_blank" rel="noopener" class="app-store-badge">
-                            <img src="app-store-badge-white.svg" alt="Download on the App Store">
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
+    <section class="pillars" id="features">
+      <div class="wrap">
+        <article class="pillar">
+          <div>
+            <span class="eyebrow">On the ride</span>
+            <h2 class="headline">Your ride, live on the map</h2>
+            <p>Tap Start and go. Your route draws itself on a full-screen map as you ride, with your speed, heading, distance, climb and time right below. Pull the card up for big, bright numbers you can read at a glance.</p>
+          </div>
+          <div class="pillar-art pair">
+            <picture class="phone">
+              <source srcset="assets/iphone-live-dark.webp" media="(prefers-color-scheme: dark)">
+              <img src="assets/iphone-live-light.webp" alt="A ride in progress on the map, with a speedometer and compass." width="660" height="1434" loading="lazy">
+            </picture>
+            <picture class="phone">
+              <source srcset="assets/iphone-liveTall-dark.webp" media="(prefers-color-scheme: dark)">
+              <img src="assets/iphone-liveTall-light.webp" alt="Wheelie’s full-height ride view, with speed, time, distance and elevation in large type." width="660" height="1434" loading="lazy">
+            </picture>
+          </div>
+        </article>
 
-        <section id="features" class="features">
-            <div class="container">
-                <h2 class="section-title">Why Choose Wheelie?</h2>
-                <div class="features-grid">
-                    <div class="feature-card">
-                        <div class="feature-icon">🚴</div>
-                        <h3>Live GPS Tracking</h3>
-                        <p>Real-time speedometer, elevation tracking, and precise route recording with GPS signal quality monitoring.</p>
-                    </div>
-                    <div class="feature-card">
-                        <div class="feature-icon">🗺️</div>
-                        <h3>Interactive Maps</h3>
-                        <p>Multiple map styles, live route visualization, and weather overlay with compass navigation.</p>
-                    </div>
-                    <div class="feature-card">
-                        <div class="feature-icon">📊</div>
-                        <h3>Ride History</h3>
-                        <p>Complete ride management with search, sorting, tagging, and iCloud sync across all your devices.</p>
-                    </div>
-                    <div class="feature-card">
-                        <div class="feature-icon">⚡</div>
-                        <h3>Smart Features</h3>
-                        <p>Siri integration, widgets, live activities, and seamless background tracking for uninterrupted rides.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
+        <article class="pillar">
+          <div>
+            <span class="eyebrow">After the ride</span>
+            <h2 class="headline">Relive every route</h2>
+            <p>Every ride keeps its full route, colored by how fast you were going, along with where you started and finished, the weather, and your notes.</p>
+            <ul>
+              <li>Speed and elevation charts, minute by minute</li>
+              <li>Touch and hold the route to see your speed at any point</li>
+              <li>Distance, climb, average speed and time</li>
+            </ul>
+          </div>
+          <div class="pillar-art pair">
+            <picture class="phone">
+              <source srcset="assets/iphone-ride-dark.webp" media="(prefers-color-scheme: dark)">
+              <img src="assets/iphone-ride-light.webp" alt="Ride details: the route on a map, the date and places, and the ride’s stats." width="660" height="1434" loading="lazy">
+            </picture>
+            <picture class="phone">
+              <source srcset="assets/iphone-graphs-dark.webp" media="(prefers-color-scheme: dark)">
+              <img src="assets/iphone-graphs-light.webp" alt="Speed and elevation charts for a ride, with its tags and notes." width="660" height="1434" loading="lazy">
+            </picture>
+          </div>
+        </article>
 
-    <!-- Footer will be inserted by components.js -->
+        <article class="pillar">
+          <div>
+            <span class="eyebrow">History</span>
+            <h2 class="headline">Every ride, all in one place</h2>
+            <p>See how far you’ve ridden this week, this month, or ever, and find any ride in seconds by date, place, distance, or tag.</p>
+            <ul>
+              <li>Tag rides your way: commutes, long rides, weekends, trips</li>
+              <li>Pin the rides you want to keep at the top</li>
+              <li>Synced privately across your devices with iCloud</li>
+            </ul>
+          </div>
+          <div class="pillar-art">
+            <picture class="phone">
+              <source srcset="assets/iphone-history-dark.webp" media="(prefers-color-scheme: dark)">
+              <img src="assets/iphone-history-light.webp" alt="History, with distance, time and cities for the week above rides grouped by day." width="660" height="1434" loading="lazy">
+            </picture>
+          </div>
+        </article>
 
-    <script src="components.js"></script>
-    <script src="script.js"></script>
+        <article class="pillar">
+          <div>
+            <span class="eyebrow">Sharing</span>
+            <h2 class="headline">Share the rides worth bragging about</h2>
+            <p>Turn any ride into an image of its route over the map, with the distance, the place and the day. Choose which details to show, then send it or save it to Photos.</p>
+          </div>
+          <div class="pillar-art">
+            <picture class="phone">
+              <source srcset="assets/iphone-share-dark.webp" media="(prefers-color-scheme: dark)">
+              <img src="assets/iphone-share-light.webp" alt="A share image of a 6.2-mile ride in New York’s Central Park." width="660" height="1434" loading="lazy">
+            </picture>
+          </div>
+        </article>
+
+        <article class="pillar">
+          <div>
+            <span class="eyebrow">Anywhere</span>
+            <h2 class="headline">Wherever the road takes you</h2>
+            <p>A loop around the park, a weekend on a canal trail, or the long way home through a new city: every ride comes home with you, wherever you ride it.</p>
+          </div>
+          <div class="pillar-art">
+            <picture class="phone">
+              <source srcset="assets/iphone-trip-dark.webp" media="(prefers-color-scheme: dark)">
+              <img src="assets/iphone-trip-light.webp" alt="A ride along the Erie Canal trail between Pittsford and Fairport, New York." width="660" height="1434" loading="lazy">
+            </picture>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="beyond">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="eyebrow">Beyond the app</span>
+          <h2 class="headline">Your ride, all over your iPhone</h2>
+          <p>Keep riding without opening Wheelie. Your ride follows you to the Lock Screen, and your rides live on your Home Screen.</p>
+        </div>
+        <div class="beyond-art">
+          <figure class="live-activity">
+            <picture>
+              <source srcset="assets/live-activity-dark.webp" media="(prefers-color-scheme: dark)">
+              <img src="assets/live-activity-light.webp" alt="Wheelie’s Live Activity: 13 mph, 4.8 miles, 211 feet of climbing and 22 minutes, with pause and stop buttons." width="1236" height="450" loading="lazy">
+            </picture>
+            <figcaption>On the Lock Screen and in the Dynamic Island</figcaption>
+          </figure>
+          <figure class="phone">
+            <picture>
+              <source srcset="assets/iphone-widgets-dark.webp" media="(prefers-color-scheme: dark)">
+              <img src="assets/iphone-widgets-light.webp" alt="Wheelie widgets on the Home Screen: the latest ride on a map, and a chart of miles per day for the month." width="660" height="1434" loading="lazy">
+            </picture>
+            <figcaption>Widgets for your latest ride and your month</figcaption>
+          </figure>
+        </div>
+        <ul class="beyond-points" role="list">
+          <li class="card glass"><h3>Lock Screen</h3><p>Speed, distance, climb and time in a Live Activity, with pause and stop right there.</p></li>
+          <li class="card glass"><h3>Control Center</h3><p>Start, pause, and stop a ride from Control Center, without unlocking.</p></li>
+          <li class="card glass"><h3>Home Screen</h3><p>Widgets for your latest ride, your recent rides, and your miles day by day.</p></li>
+          <li class="card glass"><h3>Siri and Shortcuts</h3><p>Start a ride with your voice, or ask how far you’ve ridden this week.</p></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="eyebrow">And more</span>
+          <h2 class="headline">Everything a ride deserves</h2>
+        </div>
+        <ul class="grid" role="list">
+          <li class="card glass"><h3>Apple Health</h3><p>Save rides to Health as cycling workouts with routes and calories, and bring in rides you recorded on your Apple Watch.</p></li>
+          <li class="card glass"><h3>Take your rides anywhere</h3><p>Export a ride as GPX for Strava, Komoot, Garmin and other cycling apps, KML for maps, or JSON.</p></li>
+          <li class="card glass"><h3>Weather on every ride</h3><p>Each ride remembers the temperature, wind, and conditions you rode in.</p></li>
+          <li class="card glass"><h3>Tags and notes</h3><p>Tag rides with colors of your choice and jot down what made the ride worth remembering.</p></li>
+          <li class="card glass"><h3>Smart, battery-friendly GPS</h3><p>Wheelie notices when you stop and start, so tracking stays precise without wasting battery.</p></li>
+          <li class="card glass"><h3>Built for everyone</h3><p>VoiceOver, Voice Control, larger text, Reduce Motion, and high-contrast colors.</p></li>
+          <li class="card glass"><h3>Your language, your units</h3><p>In English, Spanish, French, Dutch, and Danish, in miles or kilometers.</p></li>
+          <li class="card glass"><h3>Light and dark</h3><p>Follows your iPhone’s appearance, or pick the one you like.</p></li>
+          <li class="card glass"><h3>Landscape, too</h3><p>Mount your iPhone sideways and the ride view lays itself out for it.</p></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="privacy-callout">
+      <div class="wrap">
+        <div class="card glass">
+          <h2 class="headline">Your rides stay yours</h2>
+          <p>Your rides live on your iPhone and in your own iCloud account. Wheelie has no accounts and no servers of its own collecting where you ride.</p>
+          <p><a href="privacy.html">Read the privacy policy</a></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="closing">
+      <div class="wrap">
+        <img class="icon" src="assets/icon-512.png" alt="The Wheelie app icon: a stylized bicycle on an orange background." width="128" height="128" loading="lazy">
+        <h2 class="headline">Ready to ride?</h2>
+        <p>Try Wheelie with ten rides for free, then subscribe monthly or yearly for unlimited rides.</p>
+        <span data-app-store-badge></span>
+      </div>
+    </section>
+  </main>
+
+  <script src="components.js"></script>
 </body>
 </html>

@@ -1,76 +1,54 @@
-// Header Component
+// The navigation bar and footer every page shares.
+
+const APP_STORE_URL = "https://apps.apple.com/app/wheelie-bike-ride-tracking/id6747010503";
+
+function appStoreBadge() {
+    return `
+        <a class="badge" href="${APP_STORE_URL}" target="_blank" rel="noopener">
+            <picture>
+                <source srcset="app-store-badge-white.svg" media="(prefers-color-scheme: dark)">
+                <img src="app-store-badge-black.svg" alt="Download on the App Store">
+            </picture>
+        </a>`;
+}
+
 function createHeader() {
     return `
-        <header class="header">
-            <nav class="nav">
-                <div class="nav-container">
-                    <div class="logo">
-                        <a href="index.html">
-                            <img src="Wheelie wordmark.svg" alt="Wheelie" class="logo-img">
-                        </a>
-                    </div>
-                    <div class="nav-links">
-                        <a href="index.html">Home</a>
-                        <a href="contact.html">Contact</a>
-                        <a href="https://instagram.com/wheelie.app" target="_blank" rel="noopener noreferrer" class="nav-instagram">📸 <span class="instagram-text">Instagram</span></a>
-                        <a href="https://apps.apple.com/in/app/wheelie-bike-ride-tracking/id6747010503" target="_blank" rel="noopener" class="nav-app-store">
-                            <img src="app-store-badge-black.svg" alt="Download on the App Store" class="nav-app-store-badge">
-                        </a>
-                    </div>
-                    <button class="mobile-menu-btn" onclick="toggleMobileMenu()">☰</button>
-                </div>
-            </nav>
-            <div class="mobile-menu" id="mobileMenu">
-                <a href="index.html">Home</a>
+        <header class="nav glass">
+            <a class="brand" href="/">
+                <img src="Wheelie wordmark.svg" alt="Wheelie" width="77" height="30">
+            </a>
+            <nav class="nav-links" aria-label="Main">
+                <a href="/#features">Features</a>
                 <a href="contact.html">Contact</a>
-                <a href="https://instagram.com/wheelie.app" target="_blank" rel="noopener noreferrer" class="nav-instagram">📸 <span class="instagram-text">Instagram</span></a>
-                <a href="https://apps.apple.com/in/app/wheelie-bike-ride-tracking/id6747010503" target="_blank" rel="noopener" class="mobile-app-store">
-                    <img src="app-store-badge-black.svg" alt="Download on the App Store" class="mobile-app-store-badge">
-                </a>
-            </div>
-        </header>
-    `;
+                <a href="https://instagram.com/wheelie.app" target="_blank" rel="noopener noreferrer">Instagram</a>
+                ${appStoreBadge()}
+            </nav>
+        </header>`;
 }
 
-// Footer Component
 function createFooter() {
     return `
-        <footer id="footer" class="footer">
-            <div class="container">
-                <div class="footer-content">
-                    <div class="footer-logo">
-                        <img src="Wheelie wordmark-K.svg" alt="Wheelie" class="footer-logo-img">
-                    </div>
-                    <p class="footer-text">Making every bike ride an adventure worth tracking.</p>
-                    <div class="footer-links">
-                        <a href="privacy.html">Privacy Policy</a>
-                        <span class="separator">•</span>
-                        <a href="terms.html">Terms of Use</a>
-                        <span class="separator">•</span>
-                        <a href="press.html">Press</a>
-                    </div>
-                </div>
+        <footer class="footer">
+            <div class="wrap">
+                <span>© ${new Date().getFullYear()} Wheelie</span>
+                <nav aria-label="Footer">
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="terms.html">Terms of Use</a>
+                    <a href="press.html">Press kit</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+                <p class="fine">Apple, iPhone, Apple Watch, Siri, Apple Health, iCloud, and Live Activities are trademarks of Apple Inc.</p>
             </div>
-        </footer>
-    `;
+        </footer>`;
 }
 
-// Function to include components in the page
 function includeComponents() {
-    // Insert header at the beginning of body
-    const body = document.body;
-    const firstChild = body.firstChild;
-    body.insertBefore(document.createRange().createContextualFragment(createHeader()), firstChild);
-    
-    // Insert footer before the closing body tag
-    body.insertBefore(document.createRange().createContextualFragment(createFooter()), body.lastChild);
+    document.body.insertAdjacentHTML("afterbegin", createHeader());
+    document.body.insertAdjacentHTML("beforeend", createFooter());
+    document.querySelectorAll("[data-app-store-badge]").forEach(slot => {
+        slot.outerHTML = appStoreBadge();
+    });
 }
 
-// Mobile menu toggle function
-function toggleMobileMenu() {
-    const mobileMenu = document.getElementById('mobileMenu');
-    mobileMenu.classList.toggle('active');
-}
-
-// Auto-include components when DOM is loaded
-document.addEventListener('DOMContentLoaded', includeComponents);
+document.addEventListener("DOMContentLoaded", includeComponents);
