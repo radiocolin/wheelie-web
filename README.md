@@ -13,13 +13,13 @@ Wheelie's website: the landing page, privacy policy, terms of use, press kit and
 
 ## Images
 
-Everything in `assets/` is generated from the Wheelie repo's App Store screenshot pipeline, so the site matches the store:
+Everything in `assets/` is generated from the App Store screenshot pipeline (radiocolin/app-store-screenshots), so the site matches the store:
 
 ```sh
-cd ../Wheelie
-python3 Screenshots/site_assets.py   # writes ../wheelie-web/assets
+cd ~/Developer/"App Store Screenshots"
+python3 wheelie/site_assets.py   # writes ~/Developer/wheelie-web/assets
 ```
 
-It exports the section backgrounds, the iPhone screens (shaped like the display, with transparent corners), the Live Activity, the app icon (rendered from `Wheelie.icon`) and the link preview image. Retake the screenshots (`Screenshots/capture.py --languages en`) first if the app has changed.
+It exports the section backgrounds, the iPhone screens (shaped like the display, with transparent corners), the Live Activity, the app icon (rendered from `Wheelie.icon`) and the link preview image. Retake the screenshots (`wheelie/capture.py --languages en`) first if the app has changed.
 
-`press-images/` holds the press kit: the app icon, the wordmark, and the English App Store screenshots (`Screenshots/Output/framed/en/6.9/`). `press.html` lists them.
+`press-images/` holds the press kit: the app icon, the wordmark, and the English App Store screenshots (`wheelie/Output/framed/en/6.9/` in the screenshots repo). `press.html` lists them.
