@@ -30,6 +30,7 @@ function createFooter() {
     return `
         <footer class="footer">
             <div class="wrap">
+                <a class="maker" href="https://colinsent.me"><img src="assets/colin.webp" alt="Colin Weir, smiling, with pumpkins behind him." width="56" height="56" loading="lazy"><p>Colin Weir is an iOS developer based in Philadelphia.</p></a>
                 <span>© ${new Date().getFullYear()} Wheelie</span>
                 <nav aria-label="Footer">
                     <a href="privacy.html">Privacy Policy</a>
