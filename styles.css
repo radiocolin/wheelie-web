@@ -523,6 +523,24 @@ a {
   color: var(--text-secondary);
 }
 
+/* Maker */
+
+.maker {
+  padding: 40px 0 0;
+  text-align: center;
+}
+
+.maker img {
+  width: 160px;
+  height: 160px;
+  margin: 0 auto 16px;
+}
+
+.maker p {
+  margin: 0;
+  color: var(--text-secondary);
+}
+
 /* Closing call to action */
 
 .closing {
